@@ -1,1 +1,21 @@
+# Server conf
+server:
+  port: 9000
 
+# Spring conf
+spring:
+
+  # App conf
+  application:
+    name: api
+
+  # Mysql conf
+  datasource:
+    url: jdbc:mysql://localhost:3306/coustestunitairedb
+    username: root
+    password: root
+
+  # Jpa conf
+  jpa:
+    hibernate:
+      ddl-auto: update
